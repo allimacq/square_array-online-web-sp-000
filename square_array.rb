@@ -3,7 +3,8 @@ def square_array(array)
   array.each do |int| 
     square[int - 1] = int ** 2
     #square = Array.new(array){|int| int ** 2}
-    #return square
+    puts square
  end
- return square
+ puts "OUT OF LOOP"
+ puts square
 end
