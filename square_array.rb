@@ -1,7 +1,8 @@
 def square_array(array)
-  square = Array.new(array)
+  square = [ ]
   array.each do |int| 
-    square = Array.new(array){|int| int ** 2}
+    square(int - 1) = int ** 2
+    #square = Array.new(array){|int| int ** 2}
     puts square
  end
 end
