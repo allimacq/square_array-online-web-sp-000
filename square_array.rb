@@ -1,3 +1,6 @@
 def square_array(array)
-  array.each { |i| return i ** 2}
+ array.each |int| do
+   square = Array.new(3){|int| int ** 2}
+   return square
+ end
 end
