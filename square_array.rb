@@ -9,5 +9,5 @@ def square_array(array)
     i += 1
  end
  puts "OUT OF LOOP"
- puts square
+ puts square[2]
 end
