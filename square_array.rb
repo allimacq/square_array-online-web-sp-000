@@ -10,5 +10,5 @@ def square_array(array)
     puts i
  end
  puts "OUT OF LOOP"
- puts square[2]
+ puts square
 end
