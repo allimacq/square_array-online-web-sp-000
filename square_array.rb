@@ -11,4 +11,5 @@ def square_array(array)
  end
  puts "OUT OF LOOP"
  puts square
+ return square
 end
