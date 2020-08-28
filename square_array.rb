@@ -1,5 +1,5 @@
 def square_array(array)
-  square = Array.new(3)
+  square = Array.new()
   array.each do |int| 
     i = 0
     #the problem is int -1. need a better index, like the actual one (0,1,2,3,etc)
