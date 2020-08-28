@@ -7,6 +7,7 @@ def square_array(array)
     #square = Array.new(array){|int| int ** 2}
     puts square
     i += 1
+    puts i
  end
  puts "OUT OF LOOP"
  puts square[2]
